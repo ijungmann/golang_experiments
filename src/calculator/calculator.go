@@ -7,13 +7,6 @@ import (
 	"strconv"
 )
 
-type Operation struct {
-	operation string
-	first     int
-	second    int
-	result    int
-}
-
 func main() {
 	fmt.Println("Enter an integer")
 	reader := bufio.NewScanner(os.Stdin)
