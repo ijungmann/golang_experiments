@@ -9,6 +9,7 @@ import (
 
 func main() {
 	// file, _ := ioutil.ReadFile("./test.txt")
+	//Test
 	file, _ := os.Open("test.txt")
 	scanner := bufio.NewScanner(file)
 	wordMap := make(map[string]int, 0)
